@@ -11,6 +11,10 @@
  *
  */
 
+//////////////////////////////
+// START KAIS KUDROLLI PART //
+//////////////////////////////
+
 // Struct that is used to represent a data packet
 typedef struct packed {
     logic [7:0]  sync;
@@ -507,6 +511,13 @@ endmodule: protocol_fsm
  ******Encoding Pipeline*********
  ********************************/
 
+////////////////////////////
+// END KAIS KUDROLLI PART //
+////////////////////////////
+
+////////////////////////
+// START DJ PARK PART //
+////////////////////////
 
 /**
  * BitStreamEncoder receives a packet from protocol fsm and sends out oneBit
@@ -1299,3 +1310,10 @@ module BitStreamDecoder
 	end
 
 endmodule: BitStreamDecoder
+
+//////////////////////
+// END DJ PARK PART //
+//////////////////////
+
+
+
